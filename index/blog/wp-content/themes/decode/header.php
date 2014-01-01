@@ -42,7 +42,7 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li><a href="../ResumeLolaPriego.pdf">Resume</a></li>
-                <li><a class="active" href="/blog">Blog</a></li>
+                <li class="active"><a href="/blog">Blog</a></li>
                 <li><a href="../projects.html">Projects</a></li>
               </ul>
             </div><!--/.nav-collapse -->
@@ -75,25 +75,7 @@
 		</div>
 		<?php endif; ?>
 
-		<div class="site-branding">
 
-			<?php if (get_theme_mod( 'header_image', '' )) echo '<a href="' . esc_url( home_url( '/' ) ) . '"><img class="site-logo" src="' . get_theme_mod( 'header_image', '' ) . '"></a>'; ?>
-
-			<?php if (get_theme_mod( 'show_site_title', true ) == true ) : ?>
-				<h1 class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</h1>
-			<?php endif; ?>
-
-			<?php if (get_theme_mod( 'show_site_description', true ) == true ) : ?>
-				<?php if (get_theme_mod( 'html_description', '' ) !== '' ) : ?>
-				<h2 class="site-description"><?php echo get_theme_mod( 'html_description' ); ?></h2>
-				<?php elseif (get_theme_mod( 'html_description', '' ) == '' ) : ?>
-				<h2 class="site-description"><?php echo get_bloginfo ( 'description' );?></h2>
-				<?php endif; ?>
-			<?php endif; ?>
-
-		</div>
 		<?php if (get_theme_mod( 'show_social_icons', false ) == true ) : ?>
 		<div class="sociallinks">
 			<ul>
