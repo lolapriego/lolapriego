@@ -3765,5 +3765,4 @@ input[type="submit"].btn.btn-mini {
       right: 0;
       z-index: 10;
       margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
     }
