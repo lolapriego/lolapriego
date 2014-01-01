@@ -12,8 +12,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="stylesheet" type="text/css" href="./bootstrap-responsive.css" media="screen">
-<link rel="stylesheet" type="text/css" href="./style2.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://lolapriego.com/blog/wp-content/themes/decode/bootstrap-responsive.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://lolapriego.com/blog/wp-content/themes/decode//style2.css" media="screen">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if (get_theme_mod( 'favicon_image', '' )) echo '<link rel="icon" href="' . get_theme_mod( 'favicon_image', '' ) . '">'; ?>
