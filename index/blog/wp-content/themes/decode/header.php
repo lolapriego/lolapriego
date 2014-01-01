@@ -12,6 +12,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="stylesheet" type="text/css" href="bootstrap-responsive.css" media="screen">
+<link rel="stylesheet" type="text/css" href="style2.css" media="screen">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if (get_theme_mod( 'favicon_image', '' )) echo '<link rel="icon" href="' . get_theme_mod( 'favicon_image', '' ) . '">'; ?>
@@ -21,6 +23,36 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html">Lola</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="ResumeLolaPriego.pdf">Resume</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li class="active"><a href="#">Projects</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
 <div id="page" class="hfeed site<?php if (get_theme_mod( 'show_sidebar', true ) == true) { echo ' sidebar-style-' . get_theme_mod( 'constant_sidebar', 'closing' ) . ' sidebar-style-' . get_theme_mod( 'sidebar_position', 'left' ); }?>">
 	<?php do_action( 'before' ); ?>
 	<?php if (get_theme_mod( 'constant_sidebar', 'closing' ) == 'constant' && get_theme_mod( 'show_sidebar', true ) == true) { echo '<div class="site-scroll">'; } ?>
