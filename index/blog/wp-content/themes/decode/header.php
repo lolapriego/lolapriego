@@ -37,13 +37,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="index.html">Lola</a>
+            <a class="brand" href="../index.html">Lola</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="ResumeLolaPriego.pdf">Resume</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li class="active"><a href="#">Projects</a></li>
+                <li><a href="../ResumeLolaPriego.pdf">Resume</a></li>
+                <li><a class="active" href="/blog">Blog</a></li>
+                <li><a href="../projects.html">Projects</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
