@@ -41,9 +41,9 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="../ResumeLolaPriego.pdf">Resume</a></li>
-                <li class="active"><a href="/blog">Blog</a></li>
-                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="http://lolapriego.com/ResumeLolaPriego.pdf">Resume</a></li>
+                <li class="active"><a href="http://lolapriego.com//blog">Blog</a></li>
+                <li><a href="http://lolapriego.com//projects.html">Projects</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
